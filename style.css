@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Sarala&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background:linear-gradient(50deg, #277BC0, #FFCB42, #FFF4CF);
+    background-size: 800% 800%;
+}
+
+.cabecalho { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding:24px;
+}
+.cabecalho-imagem { 
+    height: 180px;
+}
+.cabecalho-menu {
+    display: flex;
+    gap:50px;
+}
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color:#472D2D;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #FFF268;
+    width: 120px;
+    height: 50px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0,25);
+    border-radius: 20px;
+}
+.cabecalho-menu-item:hover {
+    background-color: rgba(236, 214, 196, 0,53) ;
+}
+
+.conteudo { 
+    margin-bottom: 48px;
+    border-top: 0.4px solid #277BC0;
+}
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo-principal-informacao{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.conteudo-principal-informacao-titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color:#472D2D;
+}
+.conteudo-principal-informacao-subtitulo{
+    font-family: 'Sarala', sans-serif;
+    color:#472D2D;
+    font-weight: 400;
+    font-size: 24px;
+}
+.conteudo-principal-informacao-paragrafo{
+    font-family: 'Sarala', sans-serif;
+    color:#472D2D;
+    font-weight: 400;
+    font-size: 18px;
+}
+.conteudo-principal-imagem{
+    height: 430px;
+}
+
+.rodape{
+    padding-top: 32px;
+    border-top: 0.4px solid #277BC0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.rodape-imagem{
+    height: 70px;
+}
+.roadape-informacao{
+    font-family: 'Sarala', sans-serif;
+    color:#472D2D;
+    font-weight: 400;
+    font-size: 18px;
+}
